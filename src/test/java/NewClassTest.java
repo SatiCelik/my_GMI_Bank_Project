@@ -7,11 +7,10 @@ public class NewClassTest {
         System.out.println("master update");
 
 
-<<<<<<< HEAD
+
         System.out.println("last update");
 
-=======
->>>>>>> 66f808f6fb434e514a5caa2ace803a5f78678436
+
 
     }
 }
