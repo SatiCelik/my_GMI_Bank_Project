@@ -4,5 +4,8 @@ public class NewClassTest {
         System.out.println("master update");
 
 
+        System.out.println("last update");
+
+
     }
 }
