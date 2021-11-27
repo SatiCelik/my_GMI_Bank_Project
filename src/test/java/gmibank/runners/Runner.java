@@ -18,8 +18,8 @@ import org.junit.runner.RunWith;
 
 
         features = "src/test/resources/features",
-        glue = "src/test/java/gmibank/step_definitions",
-        tags = "@ssn_test_invalid",
+        glue = "gmibank/step_definitions",
+        tags = "@login_invalid-credential",
         dryRun = false
 
 )
