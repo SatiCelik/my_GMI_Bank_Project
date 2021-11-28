@@ -1,4 +1,4 @@
-package gmibank.step_definitions;
+package gmibank.step_definitions.Gokcen;
 
 
 import gmibank.pages.RegistrationPage;

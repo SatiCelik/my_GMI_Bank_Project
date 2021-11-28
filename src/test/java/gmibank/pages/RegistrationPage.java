@@ -101,4 +101,15 @@ public class RegistrationPage {
     @FindBy(xpath = "(//li[@class='point'])[5]")
     public WebElement fifthColorPartOfPassword;
 
+    @FindBy(xpath = "//li[@style='background-color: rgb(255, 153, 0);']")
+    public WebElement orange;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(255, 255, 0);']")
+    public WebElement yellow;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(0, 255, 0);']")
+    public WebElement green;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(255, 0, 0);']")
+    public WebElement red;
 }

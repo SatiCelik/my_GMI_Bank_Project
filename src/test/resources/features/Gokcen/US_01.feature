@@ -1,3 +1,4 @@
+@US01Registration
 Feature: US_01_registration
 
 
