@@ -1,16 +1,14 @@
 package gmibank.step_definitions.Sati;
 
-import gmibank.pages.LoginPage;
+import gmibank.pages.SatiLoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
 
-public class US_004_Login_Page_step_defs {
+public class US_004_Login_Valid_Credential_step_defs {
 
-    LoginPage loginPage = new LoginPage();
-
+    SatiLoginPage loginPage = new SatiLoginPage();
     @And("user select dropdown menu")
     public void userSelectDropdownMenu() {
         loginPage.dropDownMenuButton.click();
@@ -34,7 +32,7 @@ public class US_004_Login_Page_step_defs {
     }
     @And("user select sign in button")
     public void userSelectSignInButton() {
-        loginPage.signInButton.click();
+        loginPage.signInDropDown.click();
     }
 
     @Then("Verify user goes to user login page")
@@ -55,3 +53,6 @@ public class US_004_Login_Page_step_defs {
         Assert.assertTrue(loginPage.mainPageVisible.isDisplayed());
     }
 }
+
+
+
