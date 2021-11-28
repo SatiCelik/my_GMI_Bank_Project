@@ -32,7 +32,7 @@ public class RegistrationPage {
     public WebElement phoneTextBox;
 
     @FindBy(id = "username")
-    public WebElement usernameTextBox;
+    public WebElement userNameTextBox;
 
     @FindBy(id = "email")
     public WebElement emailTextBox;
