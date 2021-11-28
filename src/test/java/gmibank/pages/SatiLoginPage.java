@@ -39,7 +39,9 @@ public class SatiLoginPage {
    @FindBy(xpath = "//div[@class='alert alert-danger fade show']")
     public WebElement errorMessageVisible;
 
-   @FindBy(linkText = "Did you forget your password?")
+   @FindBy(xpath = "//span[text()=\"tester team3\"]")
+    public WebElement loginPageSignInVerify;
+@FindBy(linkText = "Did you forget your password?")
     public WebElement forgetYourPassword;
 
    @FindBy(xpath = "//input[@type='email']")
