@@ -61,7 +61,7 @@ public class US_01_Gokcen {
 
     @Then("user verify the username text box is not blank")
     public void user_verify_the_username_text_box_is_not_blank() {
-        Assert.assertFalse(registrationPage.usernameTextBox.getAttribute("value").isEmpty());
+        Assert.assertFalse(registrationPage.userNameTextBox.getAttribute("value").isEmpty());
     }
 
     @Then("user verify the email Text box is not blank")
@@ -89,7 +89,7 @@ public class US_01_Gokcen {
         registrationPage.lastnameTextBox.sendKeys(string2);
         registrationPage.addressTextBox.sendKeys(string3);
         registrationPage.phoneTextBox.sendKeys(string4);
-        registrationPage.usernameTextBox.sendKeys(string5);
+        registrationPage.userNameTextBox.sendKeys(string5);
         registrationPage.emailTextBox.sendKeys(string6);
         registrationPage.firstPasswordTextBox.sendKeys(string7);
         registrationPage.secondPasswordTextBox.sendKeys(string8);
