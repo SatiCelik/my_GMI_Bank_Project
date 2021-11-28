@@ -1,6 +1,6 @@
 package gmibank.step_definitions.Sati;
 
-import gmibank.pages.RegistrationPage;
+import gmibank.pages.SatiRegistrationPage;
 import gmibank.utilities.ConfigReader;
 import gmibank.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -10,7 +10,7 @@ import org.openqa.selenium.Keys;
 
 public class US_002_Registration_Invalid_Credential_step_defs {
 
-    RegistrationPage registrationPage = new RegistrationPage();
+    SatiRegistrationPage registrationPage = new SatiRegistrationPage();
 
     @Given("user goes the GMI-bank webpage")
     public void user_goes_the_gmi_bank_webpage() {
