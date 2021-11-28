@@ -57,5 +57,4 @@ public class US_05 {
     Assert.assertTrue(loginPage.registrationPageText.isDisplayed());
     }
 
-
 }
