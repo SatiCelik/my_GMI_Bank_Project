@@ -19,8 +19,8 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "gmibank/step_definitions",
-        tags = "@login_invalid-credential",
-        dryRun = false
+        tags = "@gok_homepage_study",
+        dryRun = true
 
 )
 public class Runner {
