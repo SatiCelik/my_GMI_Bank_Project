@@ -2,6 +2,8 @@ package gmibank.step_definitions.Gokcen;
 
 import gmibank.pages.SatiRegistrationPage;
 import gmibank.utilities.ReusableMethods;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;

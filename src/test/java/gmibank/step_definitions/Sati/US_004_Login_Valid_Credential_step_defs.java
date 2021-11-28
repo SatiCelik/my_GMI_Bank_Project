@@ -32,7 +32,7 @@ public class US_004_Login_Valid_Credential_step_defs {
     }
     @And("user select sign in button")
     public void userSelectSignInButton() {
-        loginPage.signInButton.click();
+        loginPage.signInDropDown.click();
     }
 
     @Then("Verify user goes to user login page")
