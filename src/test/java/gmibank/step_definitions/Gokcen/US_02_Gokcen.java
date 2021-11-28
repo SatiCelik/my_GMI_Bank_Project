@@ -1,6 +1,6 @@
 package gmibank.step_definitions.Gokcen;
 
-import gmibank.pages.RegistrationPage;
+import gmibank.pages.SatiRegistrationPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -9,7 +9,7 @@ import org.openqa.selenium.Keys;
 
 public class US_02_Gokcen {
 
-    RegistrationPage registrationPage=new RegistrationPage();
+    SatiRegistrationPage registrationPage=new SatiRegistrationPage();
 
     @Given("user selects SSN box and be left blank")
     public void user_selects_ssn_box_and_be_left_blank() {

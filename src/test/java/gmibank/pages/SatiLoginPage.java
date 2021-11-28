@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class SatiLoginPage {
 
-   public LoginPage(){
+   public SatiLoginPage(){
        PageFactory.initElements(Driver.getDriver(),this);
 
     }
@@ -38,6 +38,24 @@ public class LoginPage {
 
    @FindBy(xpath = "//div[@class='alert alert-danger fade show']")
     public WebElement errorMessageVisible;
+
+   @FindBy(linkText = "Did you forget your password?")
+    public WebElement forgetYourPassword;
+
+   @FindBy(xpath = "//input[@type='email']")
+    public WebElement emailTextBox;
+
+   @FindBy(xpath = "//button[@type='submit']")
+    public WebElement resetPassword;
+
+   @FindBy(xpath = "//div[@class='Toastify']")
+    public WebElement greenPart;
+
+   @FindBy(xpath = "//div[@class='brand-icon']")
+    public WebElement registrationPageVisible;
+
+   @FindBy(linkText = "Register a new account")
+    public WebElement createNewAccount;
 
 
 

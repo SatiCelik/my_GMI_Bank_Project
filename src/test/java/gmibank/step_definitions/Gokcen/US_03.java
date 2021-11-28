@@ -1,13 +1,13 @@
 package gmibank.step_definitions.Gokcen;
 
-import gmibank.pages.RegistrationPage;
+import gmibank.pages.SatiRegistrationPage;
 import gmibank.utilities.ReusableMethods;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 
 public class US_03 {
-RegistrationPage registrationPage=new RegistrationPage();
+SatiRegistrationPage registrationPage=new SatiRegistrationPage();
 
     @Then("user sends {string} to password red")
     public void user_sends_to_password_red(String string) {

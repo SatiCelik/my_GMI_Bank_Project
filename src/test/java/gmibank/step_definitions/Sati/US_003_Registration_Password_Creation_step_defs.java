@@ -1,14 +1,13 @@
 package gmibank.step_definitions.Sati;
 
-import gmibank.pages.RegistrationPage;
+import gmibank.pages.SatiRegistrationPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
 
-public class US_003_Registration_Password_step_defs {
+public class US_003_Registration_Password_Creation_step_defs {
 
-    RegistrationPage registrationPage = new RegistrationPage();
+    SatiRegistrationPage registrationPage = new SatiRegistrationPage();
 
     @Given("user enter lowercase char for stronger password")
     public void user_enter_lowercase_char_for_stronger_password() {
@@ -20,8 +19,6 @@ public class US_003_Registration_Password_step_defs {
         Assert.assertTrue(registrationPage.firstColorPartOfPassword.isDisplayed());
 
     }
-
-
     @Given("user enter upper case char for stronger password")
     public void userEnterUpperCaseCharForStrongerPassword() {
         registrationPage.firstPasswordTextBox.sendKeys("aLi");
@@ -58,7 +55,7 @@ public class US_003_Registration_Password_step_defs {
     }
 
     @Given("user enters password there should be at least {int} chars for a stronger password")
-    public void userEntersPasswordThereShouldBeAtLeastCharsForAStrongerPassword(int arg0) {
+    public void userEntersPasswordThereShouldBeAtLeastCharsForAStrongerPassword(int password) {
         registrationPage.firstPasswordTextBox.sendKeys("aLi123!");
 
     }
@@ -67,4 +64,6 @@ public class US_003_Registration_Password_step_defs {
     public void userVerifyFifthColorPartIsVisible() {
         Assert.assertTrue(registrationPage.fifthColorPartOfPassword.isDisplayed());
     }
+
+
 }

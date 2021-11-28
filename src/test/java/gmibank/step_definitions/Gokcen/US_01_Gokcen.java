@@ -1,7 +1,7 @@
 package gmibank.step_definitions.Gokcen;
 
 
-import gmibank.pages.RegistrationPage;
+import gmibank.pages.SatiRegistrationPage;
 import gmibank.utilities.ConfigReader;
 import gmibank.utilities.Driver;
 import gmibank.utilities.*;
@@ -14,7 +14,7 @@ import org.junit.Assert;
 
 public class US_01_Gokcen {
 
-    RegistrationPage registrationPage = new RegistrationPage();
+    SatiRegistrationPage registrationPage = new SatiRegistrationPage();
 
     @Given("user navigate to webpage")
     public void user_navigate_to_webpage() {
