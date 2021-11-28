@@ -41,6 +41,7 @@ public class SatiLoginPage {
 
    @FindBy(xpath = "//span[text()=\"tester team3\"]")
     public WebElement loginPageSignInVerify;
+
 @FindBy(linkText = "Did you forget your password?")
     public WebElement forgetYourPassword;
 
@@ -59,9 +60,17 @@ public class SatiLoginPage {
    @FindBy(linkText = "Register a new account")
     public WebElement createNewAccount;
 
+   @FindBy(xpath = "//strong[text()='Failed to sign in!']")
+    public WebElement failedSignInError;
 
+@FindBy(xpath = "//span[text()='Reset your password']")
+    public WebElement resetPasswordText;
 
+@FindBy(xpath = "//span[text()='Registration']")
+    public  WebElement registrationPageText;
 
+    @FindBy(xpath = "//span[text()='Register a new account']")
+    public  WebElement registernewcountButton;
 }
 
 

@@ -1,7 +1,7 @@
 package gmibank.step_definitions.Gokcen;
 
-import gmibank.pages.LoginPage;
-import gmibank.pages.RegistrationPage;
+import gmibank.pages.SatiLoginPage;
+import gmibank.pages.SatiRegistrationPage;
 import gmibank.utilities.ConfigReader;
 import gmibank.utilities.ReusableMethods;
 import io.cucumber.java.en.Given;
@@ -9,8 +9,8 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 
 public class US_04 {
-    RegistrationPage registrationPage=new RegistrationPage();
-    LoginPage loginPage=new LoginPage();
+    SatiRegistrationPage registrationPage=new SatiRegistrationPage();
+    SatiLoginPage loginPage=new SatiLoginPage();
 
     @Given("user enters valid username")
     public void userEntersValidUsername() {
