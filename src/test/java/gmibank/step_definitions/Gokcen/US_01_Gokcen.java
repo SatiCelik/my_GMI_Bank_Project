@@ -21,15 +21,7 @@ public class US_01_Gokcen {
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));
     }
 
-    @Given("user navigates to menu dropdown and click")
-    public void user_navigates_to_menu_dropdown_and_click() {
-        registrationPage.MenuDropDownButton.click();
-    }
 
-    @Given("user select  Register button")
-    public void user_select_register_button() {
-        registrationPage.RegisterButton.click();
-    }
 
     @Given("user goes to SSN box and enters  {string}")
     public void user_goes_to_ssn_box_and_enters(String string) {

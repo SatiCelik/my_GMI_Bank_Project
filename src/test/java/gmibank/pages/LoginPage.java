@@ -39,6 +39,8 @@ public class LoginPage {
    @FindBy(xpath = "//div[@class='alert alert-danger fade show']")
     public WebElement errorMessageVisible;
 
+   @FindBy(xpath = "//span[text()=\"tester team3\"]")
+    public WebElement loginPageSignInVerify;
 
 
 

@@ -34,7 +34,7 @@ public class US_004_Login_Page_step_defs {
     }
     @And("user select sign in button")
     public void userSelectSignInButton() {
-        loginPage.signInButton.click();
+        loginPage.signInDropDown.click();
     }
 
     @Then("Verify user goes to user login page")
