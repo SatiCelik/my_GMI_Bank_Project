@@ -22,4 +22,4 @@
 #
 #      Examples:
 #      | ssn_number | first_name | last_name | address | phone_number | username | email | new_password | password_confirmation |
-#      |  123-56-7893 | Ali      | Can       | Ankara,16 | 076-446-1645 | AliCan | alican@gmail.com| aLi123! | aLi123! <
+#      |  123-56-7893 | Ali      | Can       | Ankara,16 | 076-446-1645 | AliCan | alican@gmail.com| aLi123! | aLi123!          |

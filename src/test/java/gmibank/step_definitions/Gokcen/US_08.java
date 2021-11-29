@@ -107,4 +107,6 @@ GokcenCustomerPage customerPage=new GokcenCustomerPage();
         customerPage.confirmPasswordText.sendKeys("aA1.zzz");
             }
 
+
+
 }

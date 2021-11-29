@@ -86,4 +86,7 @@ public class US_01_Gokcen {
         registrationPage.firstPasswordTextBox.sendKeys(string7);
         registrationPage.secondPasswordTextBox.sendKeys(string8);
     }
+
+
+
 }
