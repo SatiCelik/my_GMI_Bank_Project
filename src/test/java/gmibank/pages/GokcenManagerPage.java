@@ -36,14 +36,22 @@ public class GokcenManagerPage {
     @FindBy(name = "email")
     public WebElement emailBox;
 
-    @FindBy(name = "address")
-    public WebElement address;
-
     @FindBy(name = "mobilePhoneNumber")
     public WebElement mobilePhoneNumber;
 
     @FindBy(name = "address")
     public WebElement addressBox;
+
+    @FindBy(name = "city")
+    public WebElement city;
+
+    @FindBy(name ="country.id")
+    public WebElement country;
+    @FindBy(xpath = "//option[@value='27901']")
+    public  WebElement Turkey;
+
+    @FindBy(name="state")
+    public WebElement state;
 
 
 }

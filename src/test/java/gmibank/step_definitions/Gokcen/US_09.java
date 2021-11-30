@@ -30,6 +30,7 @@ SatiLoginPage loginPage=new SatiLoginPage();
     public void user_search_ssn_number() {
       managerPage.searchSsnText.sendKeys(ConfigReader.getProperty("ssn_text_box"));
       managerPage.searchButton.click();
+      ReusableMethods.waitFor(3);
     }
     @Then("verify all their registration")
     public void verify_all_their_registration() {
