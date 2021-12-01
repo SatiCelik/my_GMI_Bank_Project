@@ -122,5 +122,7 @@ public class US_006_step_defs {
     public void verifyUpdateByAddingSignAndExtensionToYourEmail(String arg0, String arg1) {
         Assert.assertTrue(satiUS_006Page.emailTextBox.getAttribute("value").contains("ahmedim@gmail.com"));
     }
+
+
 }
 

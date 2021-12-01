@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "gmibank/step_definitions",
-        tags = "@gok_homepage_study",
+        tags = "@US01Registration",
         dryRun = false
 
 )

@@ -53,4 +53,6 @@ public class US_02_Gokcen {
     public void userShouldSeeErrorMessage(String arg0) {
         Assert.assertTrue(registrationPage.emailErrorMessage.isDisplayed());
     }
+
+
 }
