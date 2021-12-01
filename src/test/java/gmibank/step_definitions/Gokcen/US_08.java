@@ -116,12 +116,12 @@ public class US_08 {
     @Then("confirm the new password")
     public void confirm_the_new_password() {
         customerPage.confirmPasswordText.sendKeys("aA1.zzz");
-<<<<<<< HEAD
+
             }
 
 
 
-=======
+
     }
->>>>>>> master
-}
+
+
