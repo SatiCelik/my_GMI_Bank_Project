@@ -12,10 +12,10 @@ public class SatiUS_009Page {
 
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    @FindBy(xpath = "(//a[@href='#'])[2]")
+    @FindBy(linkText = "My Operations")
     public WebElement myOperationsDropDown;
 
-    @FindBy(xpath = "(//a[@class='dropdown-item'])[1]")
+    @FindBy(linkText = "Manage Customers")
     public WebElement manageCustomers;
 
     @FindBy(id = "jh-create-entity")

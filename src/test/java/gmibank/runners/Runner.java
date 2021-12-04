@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "gmibank/step_definitions",
-        tags = "@home_test",
+        tags = "@address_not_blank",
         dryRun = true
 
 )

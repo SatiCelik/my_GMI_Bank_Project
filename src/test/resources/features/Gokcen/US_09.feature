@@ -7,10 +7,6 @@ Feature:US_09 User search for a new applicant by their SSN and see all their reg
     And user click sign in button
 
 
-
-
-
-
   Scenario:search by SSN
     And user enters manager username and password
     And user click again sign in button

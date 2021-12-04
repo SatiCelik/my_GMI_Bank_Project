@@ -1,12 +1,9 @@
-@home_test_case_test
-Feature: US_009_User should be able to search for a new applicant by their SSN and see all their registration info populated
+
+Feature: US_10
   Background:
     Given user goes to webpage
     And user select dropdown menu
     And user select sign in button
-
-
-  Scenario : TC_01 search by SSN
     And user enters Username in the sign in page
     And user enters new password in the sign in page
     And user click second sign in button
@@ -15,5 +12,18 @@ Feature: US_009_User should be able to search for a new applicant by their SSN a
     And user clicks the create a new customer button
     And user enters SSN
     And user clicks Search button
-    Then verify all their registration firstname, lastname, email, phone number, email, address
+
+
+  @address_not_blank
+  Scenario: TC_01_address_button_is_not_blank
+   Then verify address text box is not blank
+    And close the application
+
+    Then verify city text box is not blank
+    Then verify country text box is not blank
+    Then verify state text box is not blank
+    Then verify state text box is provided as US state
+
+
+
 
