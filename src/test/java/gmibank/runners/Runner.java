@@ -19,8 +19,8 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "gmibank/step_definitions",
-        tags = "@address_not_blank",
-        dryRun = true
+        tags = "@Registration-API",
+        dryRun = false
 
 )
 public class Runner {

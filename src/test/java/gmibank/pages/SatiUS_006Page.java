@@ -56,6 +56,38 @@ public class SatiUS_006Page {
     @FindBy(xpath = "//option[2]")
     public  WebElement turkishOption;
 
+    @FindBy(xpath = "//span[text()='ahmetahmet GOK']")
+    public WebElement ahmetDropDown;
+
+    @FindBy(xpath = "//span[text()='Password']")
+    public WebElement passwordDropDown;
+
+    @FindBy(xpath = "//input[@name='currentPassword']")
+    public WebElement currentPassword;
+
+    @FindBy(id = "newPassword")
+    public WebElement newPassword;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(255, 0, 0);']")
+    public  WebElement redColor;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(255, 153, 0);']")
+    public  WebElement orangeColor;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(255, 255, 0);']")
+    public  WebElement yellowColor;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(0, 255, 0);']")
+    public  WebElement greenColor;
+
+    @FindBy(id = "confirmPassword")
+    public WebElement newPasswordConfirmation;
+
+    @FindBy(className = "btn btn-success")
+    public WebElement confirmPasswordSaveButton;
+
+
+
 
 
 }

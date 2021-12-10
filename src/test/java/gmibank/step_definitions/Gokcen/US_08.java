@@ -86,6 +86,7 @@ public class US_08 {
 
     @Then("verify the level chart yellow {string}")
     public void verify_the_level_chart_yellow(String string) {
+
         Assert.assertTrue(customerPage.yellow.isDisplayed());
     }
 
@@ -121,7 +122,6 @@ public class US_08 {
 
 
 
-
-    }
+}
 
 
